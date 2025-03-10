@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="doc">
+    <div id="acnt1">
+        <button id="button3" onclick="changepfp()"><image src="Image/transparentpfpcolor2.png" id="acntpfp"></image></button>
+    </div>
+    <div id="maininfo">
+        <form action="results.html">
+            <div>
+                <label for="name">Username</label>
+                <input type="text" name="name" id="name" placeholder="Username" required>
+            </div>
+                <label>Password
+                    <input type="password" name="password" placeholder="Password" required>
+                </label>
+            <div> Company:
+                <input type="radio" name="company" id="choosefirm" required onclick="choosecompany()">
+                    <label for="choosefirm">Choose From List</label>
+                <input type="radio" name="company" id="typefirm" required onclick="typecompany()">
+                    <label for="typefirm">New/Custom</label>
+                </label>
+            </div>
+
+
+
+
+        </form>
+        <a href="mainpage.html">Clickme</a>
+    </div>
+</body>
+</html>
